@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recover Your Wallet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="status-bar">
+                <span class="time">04:37</span>
+                <div class="status-icons">
+                    <img src="image/status-icons.png" alt="" class="status-img">
+                </div>
+            </div>
+            <div class="nav-bar">
+                <button class="back-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <div class="progress-bar">
+                    <div class="segment active"></div>
+                    <div class="segment"></div>
+                    <div class="segment"></div>
+                    <div class="segment"></div>
+                    <div class="segment"></div>
+                </div>
+                <div class="spacer"></div>
+            </div>
+        </header>
+
+        <main>
+            <div class="content-header">
+                <h1>Recover Your Wallet</h1>
+                <p>Import with a recovery phrase or key, or log in via Web3Auth using your email or social account</p>
+            </div>
+
+            <div class="options-list">
+                <button class="option-card" id="import-phrase-btn">
+                    <div class="icon-container import-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3L15.5 7.5z"></path></svg>
+                    </div>
+                    <div class="option-text">
+                        <h3>Import</h3>
+                        <p>Use a recovery phrase or private key</p>
+                    </div>
+                    <div class="arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </div>
+                </button>
+
+                <button class="option-card" id="social-recovery-btn">
+                    <div class="icon-container social-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    </div>
+                    <div class="option-text">
+                        <h3>Recover with Social</h3>
+                        <p>Powered by Web3Auth</p>
+                    </div>
+                    <div class="arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </div>
+                </button>
+            </div>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
